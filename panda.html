@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assent/css/styles.css">
+    <link rel="stylesheet" href="./assent/css/musica.css">
+
+    <style>
+        .video-carousel {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .video-carousel video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .video-wrapper {
+            position: relative;
+        }
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+        .play-button:focus {
+            outline: none;
+        }
+        .carousel-item {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="letra titulo a">Feliz Aniversario</h1>
+        <p class="date titulo"><b>19/09/2024</b> </p>
+    </header>
+    <main>
+        <div class="container">
+            
+            <div class="card" style="background-image: url('./assent/img/imagen1.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen2.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen3.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen4.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen5.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen6.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen7.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen8.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen9.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen10.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen11.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen12.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen13.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen14.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen15.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen16.jpeg');"></div>
+
+           
+
+           
+        </div>
+        
+        <div class="letter-container mt-5">
+            <h2 class="titulo2">Mi Carta para Ti</h2>
+            <div class="letter-content">
+                <p>Hoy hace 4 años desde que tomé la mejor decisión de toda mi vida. Lo siento por cada error que he tenido y gracias por ser tan buena conmigo.</p>
+              <p></p>
+
+               <p>Te amo Ana💜</p>
+              
+             
+            </div>
+        </div>
+
+        <!-- Carrusel de videos aa -->
+        <div class="container mt-5 video-carousel">
+            <h2 class="titulo2 text-center">Mejores Momentos</h2>
+            <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="video-wrapper">
+                            <video id="video1" width="600" height="400" controls>
+                                <source src="./assent/videos/video1.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video1')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video2" width="600" height="400" controls>
+                                <source src="./assent/videos/video2.mov" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video2')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item a ">
+                        <div class="video-wrapper">
+                            <video id="video3" width="600" height="400" controls>
+                                <source src="./assent/videos/video3.mov" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video3')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video4" width="600" height="400" controls>
+                                <source src="./assent/videos/video4.mov" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video4')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video5" width="600" height="400" controls>
+                                <source src="./assent/videos/video5.mov" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video5')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video6" width="600" height="400" controls>
+                                <source src="./assent/videos/video6.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video6')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video7" width="600" height="400" controls>
+                                <source src="./assent/videos/video7.mov" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video7')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video8" width="600" height="400" controls>
+                                <source src="./assent/videos/video8.mov" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video8')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video9" width="600" height="400" controls>
+                                <source src="./assent/videos/video9.mov" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video9')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video10" width="600" height="400" controls>
+                                <source src="./assent/videos/video10.mov" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video10')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video11" width="600" height="400" controls>
+                                <source src="./assent/videos/video11.mov" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video11')">&#9658;</button>
+                        </div>
+                    </div>
+                         <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video12" width="600" height="400" controls>
+                                <source src="./assent/videos/video12.mov" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video12')">&#9658;</button>
+                        </div>
+                    </div>
+                        <div class="carousel-item">
+                            <div class="video-wrapper">
+                                <video id="video13" width="600" height="400" controls>
+                                    <source src="./assent/videos/video13.mov" type="video/mp4">
+                                    Tu navegador no soporta el elemento de video.
+                                </video>
+                                <button class="play-button" onclick="playPause('video13')">&#9658;</button>
+                            </div>
+                        </div>
+                            <div class="carousel-item">
+                                <div class="video-wrapper">
+                                    <video id="video14" width="600" height="400" controls>
+                                        <source src="./assent/videos/video14.mov" type="video/mp4">
+                                        Tu navegador no soporta el elemento de video.
+                                    </video>
+                                    <button class="play-button" onclick="playPause('video14')">&#9658;</button>
+                                </div>
+                            </div>
+                                <div class="carousel-item">
+                                    <div class="video-wrapper">
+                                        <video id="video15" width="600" height="400" controls>
+                                            <source src="./assent/videos/video15.mov" type="video/mp4">
+                                            Tu navegador no soporta el elemento de video.
+                                        </video>
+                                        <button class="play-button" onclick="playPause('video15')">&#9658;</button>
+                                    </div>
+                                </div>
+                                    <div class="carousel-item">
+                                        <div class="video-wrapper">
+                                            <video id="video16" width="600" height="400" controls>
+                                                <source src="./assent/videos/video16.mov" type="video/mp4">
+                                                Tu navegador no soporta el elemento de video.
+                                            </video>
+                                            <button class="play-button" onclick="playPause('video16')">&#9658;</button>
+                                        </div>
+                                    </div>
+            
+                   
+                </div>
+                <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+        
+    </main>
+    <script src="./assent/js/musica.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./assent/js/script.js"></script>
+    <script>
+        function playPause(videoId) {
+            var video = document.getElementById(videoId);
+            var button = video.nextElementSibling;
+            if (video.paused) {
+                video.play();
+                button.style.display = 'none';
+            } else {
+                video.pause();
+                button.style.display = 'block';
+            }
+
+            video.onended = function() {
+                button.style.display = 'block';
+            };
+        }
+    </script>
+</body>
+</html>
